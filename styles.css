@@ -1,0 +1,157 @@
+:root {
+  --blue: #0F2E54;
+  --pink: #FF6562;
+  --mint: #D0FFEE;
+}
+
+body {
+  font-family: HelveticaNeue, Arial;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  color: white;
+  background: var(--blue);
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  font-size: large;
+}
+
+#welcome-section {
+  background: linear-gradient(var(--blue) 80%, var(--mint));
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center
+}
+
+#welcome-section p {
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--pink);
+}
+
+#projects {
+  background: var(--mint);
+  height: 100vh;
+  display: block;
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+.projects-section-header {
+  color: black;
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 10%;
+  text-decoration: underline;
+}
+
+#projects .project-tile {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 1s ease-out;
+}
+#projects .project-tile:hover {
+font-size:25px;
+}
+
+
+.project-box {
+  display: flex;
+  display-direction: row;
+  justify-content: center;
+
+}
+
+.project-box .image {
+  border-radius: 8px;
+  border: solid white 10px;
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.project-box a {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border: solid var(--blue) 10px;
+  border-radius: 30px;
+}
+
+#contact {
+  background: linear-gradient(var(--mint), var(--blue), var(--mint));
+  color: white;
+  text-align: center;
+  padding: 70px;
+}
+
+.contact-section h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.contact-section p {
+  font-style: italic;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  border: solid var(--pink) 10px;
+  border-radius: 50px;
+  background: var(--pink);
+  transition: all 1s ease-out;
+}
+.contact-links a:hover {
+  font-size: 40px;
+}
+
+.contact-links i {
+  color: white;
+}
+
+footer {
+  background: var(--mint);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+@media all and (max-width: 650px) {
+  html {
+    display: flex;
+    flex-direction: column;
+  }
+}
