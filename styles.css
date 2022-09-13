@@ -157,6 +157,6 @@ footer a {
     flex-direction: column;
      }
       .contact-links a {
-   display: block;
+   display: inline-block;
      } 
 }
