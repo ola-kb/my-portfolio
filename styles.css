@@ -123,16 +123,16 @@ h1 {
 .contact-links a {
   text-decoration: none;
   color: white;
-  padding: 20px;
-  font-size: 30px;
+  padding: 1.5rem;
+  font-size: 1.8rem;
   border: solid var(--pink) 10px;
-  border-radius: 50px;
+  border-radius: 3rem;
   background: var(--pink);
   transition: all 1s ease-out;
 }
 
 .contact-links a:hover {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .contact-links i {
@@ -155,6 +155,6 @@ footer a {
   html {
     display: flex;
     flex-direction: column;
-    width:max-content;
-  }
+     }
+     
 }
