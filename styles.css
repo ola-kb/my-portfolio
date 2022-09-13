@@ -156,5 +156,7 @@ footer a {
     display: flex;
     flex-direction: column;
      }
-     
+      .contact-links a {
+   display: block;
+     } 
 }
