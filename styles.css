@@ -24,7 +24,7 @@ nav {
   text-decoration: none;
   color: white;
   padding: 30px;
-  font-size: large;
+  font-size: 1.5rem;
 }
 
 #welcome-section {
@@ -60,7 +60,7 @@ h1 {
 .projects-section-header {
   color: black;
   width: 100%;
-  font-size: 40px;
+  font-size: 3rem;
   margin-bottom: 10%;
   text-decoration: underline;
 }
@@ -69,11 +69,12 @@ h1 {
   color: black;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5rem;
   transition: all 1s ease-out;
 }
+
 #projects .project-tile:hover {
-font-size:25px;
+  font-size: 1.7rem;
 }
 
 
@@ -129,6 +130,7 @@ font-size:25px;
   background: var(--pink);
   transition: all 1s ease-out;
 }
+
 .contact-links a:hover {
   font-size: 40px;
 }
