@@ -8,6 +8,7 @@ body {
   font-family: HelveticaNeue, Arial;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 nav {
@@ -120,6 +121,14 @@ h1 {
   padding-bottom: 30px;
 }
 
+div.contact-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
 .contact-links a {
   text-decoration: none;
   color: white;
@@ -129,6 +138,7 @@ h1 {
   border-radius: 3rem;
   background: var(--pink);
   transition: all 1s ease-out;
+
 }
 
 .contact-links a:hover {
@@ -155,8 +165,9 @@ footer a {
   html {
     display: flex;
     flex-direction: column;
-     }
-      .contact-links a {
-   display: inline-block;
-     } 
+  }
+
+  .contact-links a {
+    display: inline-block;
+  }
 }
