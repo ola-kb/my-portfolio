@@ -3,9 +3,12 @@
   --pink: #FF6562;
   --mint: #D0FFEE;
 }
+html{
+  box-sizing: border-box;
+  }
 
-body {
-  font-family: HelveticaNeue, Arial;
+body {  
+   font-family: HelveticaNeue, Arial;
   padding: 0;
   margin: 0;
   width: auto;
@@ -59,12 +62,13 @@ h1 {
 }
 
 .projects-section-header {
-  color: black;
+  color: var(--blue);
   width: 100%;
+  family-font: Roboto, HelveticaNeue, Arial, sans-serif;
   font-size: 3rem;
   margin-bottom: 10%;
-  text-decoration: underline;
-}
+    text-transform: uppercase;
+ }
 
 #projects .project-tile {
   color: black;
@@ -81,7 +85,7 @@ h1 {
 
 .project-box {
   display: flex;
-  display-direction: row;
+  flex-direction: row;
   justify-content: center;
 
 }
@@ -162,13 +166,21 @@ footer a {
   color: black;
 }
 
-@media all and (max-width: 650px) {
+@media (max-width: 710px) {
   html {
-    display: flex;
     flex-direction: column;
-  }
+      }
 
   .contact-links a {
     display: inline-block;
   }
+  footer {
+   width: 100%; 
+  }
 }
+@media (max-width: 600px){
+footer {
+    width: 100%;
+ background-size: auto;
+ }
+  }
